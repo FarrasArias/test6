@@ -1,6 +1,6 @@
-def greet(name):
-    """This function greets the person passed in as a parameter."""
-    print(f"Hello, {name}!")
+def greet(name, greeting="Hello"):
+    """This function greets the person with a personalized greeting."""
+    print(f"{greeting}, {name}!")
 
 if __name__ == "__main__":
-    greet("World")
+    greet("World", "Howdy") 
